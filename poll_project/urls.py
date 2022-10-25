@@ -18,6 +18,8 @@ from django.urls import path
 
 from poll import views as poll_views
 
+# urls for api
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', poll_views.home, name='home'),
